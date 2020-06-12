@@ -1,0 +1,49 @@
+
+* {
+    max-width: 1400px;
+    font-family: sans-serif;
+    margin:0;
+    max-height: 600px;
+  }
+  header 
+  {
+    color: #f3f2f2;
+    background: rgb(0, 0, 0);
+    font-size: 15px;
+    height: 15px;
+    padding: 20px;
+    border-bottom: 2px solid black;
+
+  }
+  a:hover
+  {
+    visibility: visible;
+    color: orange;
+  }
+  .searchText
+  {
+
+      float: right;
+
+  }
+  .centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    color: black;
+  }
+
+
+  .button {
+    float: right;
+    width: 5%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 10px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
